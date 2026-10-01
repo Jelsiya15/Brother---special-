@@ -11,19 +11,15 @@
             text-align: center;
             padding: 20px;
         }
-        .photos {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
+        .photo-container {
             margin-top: 20px;
         }
-        .photos img {
-            width: 250px;
-            height: 300px;
-            object-fit: cover;
+        .photo-container img {
+            width: 80%;
+            max-width: 350px;
+            height: auto;
             border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
         .quote {
             font-size: 18px;
@@ -31,6 +27,7 @@
             max-width: 600px;
             color: #333;
             font-style: italic;
+            line-height: 1.5;
         }
         .btn {
             display: inline-block;
@@ -46,10 +43,9 @@
 <body>
     <h2>Our Special Memories ✨</h2>
     
-    <div class="photos">
-        <!-- உங்கள் போட்டோ பெயர்களை இங்கே கொடுங்கள் -->
-        <img src="brother.jpg" alt="Brother Photo">
-        <img src="sister.jpg" alt="Sister Photo">
+    <div class="photo-container">
+        <!-- நீங்கள் அப்லோட் செய்த போட்டோ ஃபைல் பெயர் இங்கே உள்ளது -->
+        <img src="IMG-20260211-WA0001.jpg" alt="Brother and Sister Photo">
     </div>
 
     <p class="quote">"எத்தனை சண்டைகள் வந்தாலும், தூரம் விலகினாலும் நம் பாசம் என்றுமே குறையாது!"</p>
